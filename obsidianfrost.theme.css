@@ -41,6 +41,24 @@ body {
     --small-user-panel: on;
 }
 
+/* ============================
+   TOP-LEFT LABEL — "ObsidianFrost"
+   ============================ */
+:root::before {
+    content: "ObsidianFrost";
+    position: fixed;
+    top: 6px;
+    left: 10px;
+    font-family: var(--font);
+    font-size: 14px; /* Smaller size */
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--frost-1);
+    text-shadow: 0 0 4px var(--frost-3);
+    z-index: 9999;
+    pointer-events: none;
+}
+
 /* ============================================================
    OBSIDIAN FROST COLOR SYSTEM
    ============================================================ */
